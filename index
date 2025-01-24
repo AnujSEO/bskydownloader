@@ -1,0 +1,214 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+    
+<!-- Mirrored from www.bskydownloader.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 24 Jan 2025 10:01:34 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-66L2EJ00H5"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-66L2EJ00H5');
+        </script>
+        <script async src="../pagead2.googlesyndication.com/pagead/js/fbfad.txt?client=ca-pub-9610122657075506"
+     crossorigin="anonymous"></script>
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bluesky Video Downloader</title>
+        <meta name="description" content="Bluesky Video Downloader is a free online tool that helps you to download high-quality MP4 videos from Bluesky social media.">
+        
+        
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                background-color: #f0f0f0;
+                min-height: 100vh;
+                display: flex;
+                flex-direction: column;
+            }
+            .logo a {
+                color: #fff;
+                text-decoration: none;
+            }
+            header {
+                background-color: #007bff;
+                color: white;
+                padding: 1rem;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+            .logo {
+                font-size: 1.5rem;
+                font-weight: bold;
+            }
+            nav a {
+                color: white;
+                text-decoration: none;
+                margin-left: 1rem;
+            }
+            main {
+                flex: 1;
+                max-width: 800px;
+                margin: 2rem auto;
+                padding: 2rem;
+                background-color: white;
+                border-radius: 8px;
+                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            }
+            h1, h2 {
+                color: #333;
+                text-align: center;
+            }
+            p {
+                color: #666;
+                text-align: center;
+            }
+            form {
+                text-align: center;
+            }
+            input[type="text"], select {
+                width: 100%;
+                padding: 10px;
+                margin-bottom: 1rem;
+                border: 1px solid #ddd;
+                border-radius: 4px;
+                box-sizing: border-box;
+            }
+            select {
+                appearance: none;
+                background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23007CB2%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E');
+                background-repeat: no-repeat;
+                background-position: right 0.7em top 50%;
+                background-size: 0.65em auto;
+            }
+            input[type="submit"], .button {
+                padding: 10px 20px;
+                background-color: #007bff;
+                color: white;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+                transition: background-color 0.3s;
+                text-decoration: none;
+                display: inline-block;
+            }
+            input[type="submit"]:hover, .button:hover {
+                background-color: #0056b3;
+            }
+            .info {
+                margin-top: 2rem;
+                font-size: 0.9rem;
+                color: #666;
+            }
+            footer {
+                text-align: center;
+                padding: 1rem;
+                background-color: #007bff;
+                color: white;
+                font-size: 0.8rem;
+            }
+            #status {
+                text-align: center;
+                font-weight: bold;
+                margin: 1rem 0;
+            }
+            #progressBar {
+                width: 100%;
+                background-color: #f3f3f3;
+                padding: 3px;
+                border-radius: 3px;
+                box-shadow: inset 0 1px 3px rgba(0, 0, 0, .2);
+            }
+            #progressBar div {
+                width: 0;
+                height: 20px;
+                background-color: #4CAF50;
+                border-radius: 2px;
+                transition: width 0.3s ease-in-out;
+            }
+            #downloadLink {
+                display: none;
+                background-color: #4CAF50;
+                text-align: center;
+                width: 100%;
+                box-sizing: border-box;
+            }
+            #downloadLink:hover {
+                background-color: #45a049;
+            }
+            #thumbnail {
+                max-width: 100%;
+                height: auto;
+                margin: 1rem auto;
+                display: none;
+                max-height:300px;
+            }
+            .how-to-use {
+                margin-top: 2rem;
+                text-align: left;
+            }
+            .how-to-use ol {
+                padding-left: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <div class="logo"><a href="index.html">Bluesky Downloader</a></div>
+            <nav>
+                <a href="index.html">Bluesky Downloader</a>
+                <a href="https://www.reelsdownloader.org/" target="_blank">IG Reels Downloader</a>
+            </nav>
+        </header>
+        <main>
+            
+    <h1>Bluesky Video Downloader</h1>
+    <p>Download your favorite Bluesky videos with ease and in a High-Quality MP4 format!</p>
+    <form id="downloadForm">
+        
+        <input type="text" id="postUrl" name="postUrl" placeholder="Enter Bluesky post URL" required>
+        <select id="formatSelect" name="format">
+            <option value="mp4">MP4 (Standard)</option>
+            <option value="ts">TS (MPEG-TS, works on WhatsApp)</option>
+        </select>
+        <input type="submit" value="Process Video">
+    </form>
+    <div id="status"></div>
+    <div id="progressBar" style="display: none;"><div></div></div>
+    <img id="thumbnail" alt="Video thumbnail" style="display: none;">
+    <a id="downloadLink" href="#" class="button" style="display: none;">Download Video</a>
+    <div class="info">
+        <p>Simply paste the URL of a Bluesky post containing a video, select your desired format, and we'll process it for you.</p>
+        <p>Please note: This tool is for personal use only. Respect copyright and Bluesky's terms of service.</p>
+    </div>
+    <div class="how-to-use">
+        <h2>How to Use</h2>
+        <ol>
+            <li>Copy the URL of the Bluesky post containing the video you want to download.</li>
+            <li>Paste the URL into the input field above.</li>
+            <li>Select your desired format (MP4 or TS).</li>
+            <li>Click the "Process Video" button.</li>
+            <li>Wait for the video to be processed. You'll see a progress bar indicating the download and processing status.</li>
+            <li>Once processing is complete, click the green "Download Video" button to save the video to your device.</li>
+        </ol>
+        <p>That's it! You now have the video saved on your device for offline viewing.</p>
+    </div>
+  
+        </main>
+        <footer>
+            &copy; 2024 Bluesky Video Downloader. All rights reserved.
+        </footer>
+        <script src="script.js"></script>
+    </body>
+    
+<!-- Mirrored from www.bskydownloader.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 24 Jan 2025 10:01:35 GMT -->
+</html>
+  
